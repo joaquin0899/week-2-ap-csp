@@ -27,8 +27,18 @@ print("Lowercase:", phrase.lower())  # Output: python is fun!
 # Convert all characters to uppercase
 print("Uppercase:", phrase.upper())  # Output: PYTHON IS FUN!
 
+phrase_2 = "supercali"
+
+phrase_3 = "HELLO"
+
+print ("Uppercase: ", phrase_2.upper())
+
 # Check if all characters are uppercase
 print("Is Uppercase?", phrase.isupper())  # Output: False
+
+
+print("Upper?", phrase_3.isupper())
+print("is upper?", phrase_2.isupper())
 
 # Find the length of the string
 print("Length of phrase:", len(phrase))  # Output: 14
