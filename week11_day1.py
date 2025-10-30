@@ -28,12 +28,18 @@ print("24 divided by 2 is", 24/2)
 #  Step 4: User Input Practic
 # Ask the user two questions and combine answers
 
-input("What is your name ")
+user_name=input("What is your name ")
 
-print("Your name is: ", (input))
+print("Your name is:", user_name)
 
 
 # ⚙️ Step 5: Final Challenge (combine it all)
 # Use math and strings together
 
+name = input("What's your name?")
 
+fav_num = int(input("What's your favorite number: "))
+
+fav_num2 = int(input("What's your second favorite number: "))
+
+print("Your name is:", (name), "and the sum of your favorite numbers is", (fav_num)+(fav_num2))
