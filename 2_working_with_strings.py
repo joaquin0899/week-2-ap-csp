@@ -61,7 +61,10 @@ print("Characters 1 to 4:", phrase[1:4])  # Output: yth
 print("Formatted Example:", (greeting + " " + name + "!").upper())
 # Output: HELLO WORLD!
 
-
+chicago_mayor = "Johnson"
+print(chicago_mayor[0])
+print(chicago_mayor[-1])
+print(chicago_mayor[4])
 # ----------------------------------------
 # 7. Strings: Advanced Concepts
 # ----------------------------------------
