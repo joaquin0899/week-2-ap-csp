@@ -74,6 +74,20 @@ print(chicago_mayor[0:4])
 print(chicago_mayor[1:5])
 #index = one letter/character
 #slicing = groups of characters
+
+crazy_word = "Supercalifragilistic"
+
+print(crazy_word.upper())
+
+half = (crazy_word[0:5])
+print(half)
+
+other_half = (crazy_word[5:9])
+print(other_half)
+
+print(crazy_word[-1])
+
+
 # ----------------------------------------
 # 7. Strings: Advanced Concepts
 # ----------------------------------------
