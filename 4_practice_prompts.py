@@ -51,6 +51,7 @@ age = 17
 
 # Use f-strings to print a message like: "In 10 years, [Your Name] will be [Your Age + 10] years old."
 
+print(f"In 10 years, {name} will be {age + 10} years old")
 ##############################################################################################################
 
 ###########################String Practice##################################

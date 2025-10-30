@@ -36,10 +36,10 @@ print("Your name is:", user_name)
 # ⚙️ Step 5: Final Challenge (combine it all)
 # Use math and strings together
 
-name = input("What's your name?")
+name = input("What's your name? ")
 
 fav_num = int(input("What's your favorite number: "))
 
 fav_num2 = int(input("What's your second favorite number: "))
 
-print("Your name is:", (name), "and the sum of your favorite numbers is", (fav_num)+(fav_num2))
+print("Your name is", (name), "and the sum of your favorite numbers is", (fav_num)+(fav_num2))
