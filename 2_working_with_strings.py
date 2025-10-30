@@ -65,6 +65,15 @@ chicago_mayor = "Johnson"
 print(chicago_mayor[0])
 print(chicago_mayor[-1])
 print(chicago_mayor[4])
+
+print(chicago_mayor[4:])
+# blank means go to the end
+
+print(chicago_mayor[0:4])
+
+print(chicago_mayor[1:5])
+#index = one letter/character
+#slicing = groups of characters
 # ----------------------------------------
 # 7. Strings: Advanced Concepts
 # ----------------------------------------
